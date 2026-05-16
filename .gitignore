@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build and cache output
+dist/
+build/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Audio/media outputs
+*.mp3
+*.m4a
+*.m4b
+*.wav
+*.aiff
+*.flac
+
